@@ -49,8 +49,8 @@
 
     <EditText
         android:id="@+id/recid"
-        android:layout_width="186dp"
-        android:layout_height="55dp"
+        android:layout_width="192dp"
+        android:layout_height="54dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="(Ex: Mr. Alex)"
@@ -64,8 +64,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="158dp"
-        android:layout_height="40dp"
+        android:layout_width="228dp"
+        android:layout_height="64dp"
         android:text="@string/transfer_funds"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"

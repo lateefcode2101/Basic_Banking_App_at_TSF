@@ -47,10 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openact() {
         Intent intent = new Intent(MainActivity.this, Customerlistactivity.class);
-        if (isinserted)
-            Toast.makeText(MainActivity.this, "Data inserted", Toast.LENGTH_SHORT).show();
-        else
-            Toast.makeText(MainActivity.this, "Data not inserted", Toast.LENGTH_SHORT).show();
+
         startActivity(intent);
 
 

@@ -22,19 +22,19 @@ public class Customerlistactivity extends AppCompatActivity {
 
         ArrayList<String> arrayList = new ArrayList<>();
 
-        arrayList.add("_1)   Mr. John ");
-        arrayList.add("_2)   Mr. Alex");
-        arrayList.add("_3)   Mr. Steve");
+        arrayList.add("1)   Mr. John ");
+        arrayList.add("2)   Mr. Alex");
+        arrayList.add("3)   Mr. Steve");
 
-        arrayList.add("-4)   Ms. Crystine");
-        arrayList.add("_5)   Mr. philip");
-        arrayList.add("_6)   Mr. Mark");
+        arrayList.add("4)   Ms. Crystine");
+        arrayList.add("5)   Mr. philip");
+        arrayList.add("6)   Mr. Mark");
 
-        arrayList.add("_7)   Mr. Max");
-        arrayList.add("_8)   Mr. Sid");
-        arrayList.add("_9)   Mr. James");
+        arrayList.add("7)   Mr. Max");
+        arrayList.add("8)   Mr. Sid");
+        arrayList.add("9)   Mr. James");
 
-        arrayList.add("_10)  Mr. William");
+        arrayList.add("10)  Mr. William");
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(Customerlistactivity.this, android.R.layout.simple_list_item_1, arrayList);
         listView.setAdapter(arrayAdapter);

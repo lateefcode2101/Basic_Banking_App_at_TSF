@@ -37,7 +37,7 @@ public class Customeractivity extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             value = extras.getInt("key");
-            Toast.makeText(Customeractivity.this, "recieved : " + value, Toast.LENGTH_SHORT).show();
+           // Toast.makeText(Customeractivity.this, "recieved : " + value, Toast.LENGTH_SHORT).show();
             //The key argument here must match that used in the other activity
         }
         Cursor cursor = viewdb.getdata(value);
